@@ -1,0 +1,3 @@
+[submodule "test-import"]
+	path = test-import
+	url = https://github.com/Ag-solutions/test-import

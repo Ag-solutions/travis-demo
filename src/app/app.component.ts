@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {testConst} from '../../test-import/src/test';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'travis-demo';
+  public test = testConst;
 }
